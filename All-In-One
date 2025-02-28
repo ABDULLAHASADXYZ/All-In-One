@@ -30,25 +30,28 @@ printf "\n ${g}"
                       ┣━┫┣┻┓ ┃┃┃ ┃┃  ┃  ┣━┫┣━┫ ┃┗┫┣╸  ┃   
                       ╹ ╹┗━┛╺┻┛┗━┛┗━╸┗━╸╹ ╹╹ ╹╹╹ ╹┗━╸ ╹ 
 "
-
-printf ""
-printf "${p}[${g}01${p}]${r} Imp Tool Please INS\n"       
-printf "${p}[${g}02${p}]${r} Spam & Enter Tool \n"
-printf "${p}[${g}03${p}]${r} Phishing INS\n"
-printf "${p}[${g}04${p}]${r} URL Shortner INS\n"
-printf "${p}[${g}05${p}]${r} Advanced Phishing INS\n"
-printf "${p}[${g}06${p}]${r} Camera Hacking INS\n"           
-printf "${p}[${g}07${p}]${r} Shark Original Important\n"      
-printf "${p}[${g}08${p}]${r} Android Hacking Tool INS\n" 
-printf "${p}[${g}09${p}]${r} Link Genrator Ssh\n"           
-printf "${p}[${g}10${p}]${r} Location Tracking & Device Info\n"
-printf "${p}[${g}11${p}]${r} Storm Breaker\n"
-printf "${p}[${g}12${p}]${r} Contact Develepor\n"    
-printf "${p}[${g}13${p}]${r} Other Contact Options\n"
+printf "\n ${b}"
+	printf "                https://www.instagram.com/cyber.warriors.io/\n"
+                 
 
 
+printf "${b}[${w}01${b}]${y} Imp Tool Please INS\n"       
+printf "${b}[${w}02${b}]${y} Spam & Enter Tool \n"
+printf "${b}[${w}03${b}]${y} Phishing INS\n"
+printf "${b}[${w}04${b}]${y} URL Shortner INS\n"
+printf "${b}[${w}05${b}]${y} Advanced Phishing INS\n"
+printf "${b}[${w}06${b}]${y} Camera Hacking INS\n"           
+printf "${b}[${w}07${b}]${y} Shark Original Important\n"      
+printf "${b}[${w}08${b}]${y} Android Hacking Tool INS\n" 
+printf "${b}[${w}09${b}]${y} Port Forwading Ssh\n"        
+printf "${b}[${w}10${b}]${y} Location Tracking & Device Info\n"
+printf "${b}[${w}11${b}]${y} Storm Breaker\n"
+printf "${b}[${w}12${b}]${y} Contact Develepor\n"    
+printf "${b}[${w}13${b}]${y} Other Contact Options\n"
+printf "${b}[${w}14${b}]${y} Port Forwading Cloudflared\n"  
 
-read -p "Enter Your Choice" choice
+
+read -p "Enter Your Choice: " choice
 
 # Check the user's choice and execute the corresponding option
 case $choice in
@@ -63,7 +66,9 @@ case $choice in
         ;;
     3)
         echo "Zphisher Save In Your Local Directory After The Install Is Complete" | lolcat
-        git clone https://github.com/htr-tech/zphisher.git
+        wget https://github.com/htr-tech/zphisher/archive/refs/heads/master.zip
+        unzip master.zip
+        rm master.zip
         ;;
     4)  
         echo "Maskphish Save In Your Local Directory After The Install Is Complete" | lolcat
@@ -107,7 +112,14 @@ case $choice in
         echo ""
         bash undefine
         ;;
+     14)  
+        echo "Cloudflared Save In Your Local Directory After The Install Is Complete"
+        wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+        chmod +x cloudflared-linux-amd64
+        sudo mv cloudflared-linux-amd64 /usr/local/bin/cloudflared
+        git clone https://github.com/ABDULLAHASADXYZ/XCLOUD.git
 
+        ;;
     *)  
         echo "Invalid choice. Please choose 1, 2, or Other." | lolcat
         ;;
