@@ -6,7 +6,7 @@ Disclaimer: The following tool and instructions are provided for educational pur
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/ABDULLAHASADXYZ/All-In-One.git
 cd All-In-One
 chmod +x All-In-One
 ./All-In-One
