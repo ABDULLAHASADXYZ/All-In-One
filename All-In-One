@@ -1,5 +1,6 @@
 git clone https://github.com/ABDULLAHASADXYZ/.CMD.git
 
+y="\e[33;1m" 
 chmod +x .CMD/Allin
 chmod +x .CMD/undefine
 chmod +x .CMD/Allinu
@@ -8,9 +9,7 @@ sudo cp .CMD/Allin /usr/bin
 sudo cp .CMD/undefine /usr/bin
 sudo cp .CMD/Allinu /usr/bin
 sudo rm -rf .CMD
-
-
-
-
+firefox https://www.instagram.com/cyber.io.of/
+printf "${y}Use Allin Command to Run${w}\n"
 
 
