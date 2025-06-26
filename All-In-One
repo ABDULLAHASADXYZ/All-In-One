@@ -8,7 +8,7 @@ sudo cp .CMD/Allin /usr/bin
 sudo cp .CMD/undefine /usr/bin
 sudo cp .CMD/Allinu /usr/bin
 sudo rm -rf .CMD
-firefox https://www.instagram.com/cyber.io.of/
+
 
 
 
